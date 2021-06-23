@@ -1,0 +1,50 @@
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  /*.col-lg-2 {
+  	width: 16%;
+  	height: 10vw;
+  }*/
+}
+
+/********** Medium devices only **********/
+@media (min-width: 557px) and (max-width: 991px) {
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 556px) {
+
+.col-sm-2 {
+	width: 30vw;
+  	height: 20vw;
+}
+
+.carousel-item:nth-child(1) {
+	transform: rotateY(0deg) translateZ(40vw);
+}
+
+.carousel-item:nth-child(2) {
+	transform: rotateY(60deg) translateZ(40vw);
+}
+
+.carousel-item:nth-child(3) {
+	transform: rotateY(120deg) translateZ(40vw);
+}
+
+.carousel-item:nth-child(4) {
+	transform: rotateY(180deg) translateZ(40vw);
+}
+
+.carousel-item:nth-child(5) {
+	transform: rotateY(240deg) translateZ(40vw);
+}
+
+.carousel-item:nth-child(6) {
+	transform: rotateY(300deg) translateZ(40vw);
+}
+
+.carousel {
+	width: 90%;
+}
+
+}	
